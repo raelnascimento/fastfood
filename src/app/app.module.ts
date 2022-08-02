@@ -9,6 +9,8 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { OrderDetailsService } from './services/order-details.service';
+import { MenupageComponent } from './pages/menupage/menupage.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,14 @@ import { ContactComponent } from './pages/contact/contact.component';
     MenuComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    MenupageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [OrderDetailsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

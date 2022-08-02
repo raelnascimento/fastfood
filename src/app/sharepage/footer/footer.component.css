@@ -1,14 +1,21 @@
 
 .footer{
     overflow: hidden;
+    position: sticky;
+    top: 100%;
     background-color: rgb(80, 70, 70);
     padding: 20px 10px;
 }
 
 h1{
+    font-weight: bold;
     color: aliceblue;
     font-size: 20px;
 
+}
+p{
+    color: yellow;
+    font-size: 12px;
 }
 
 a{
