@@ -1,5 +1,6 @@
 <div class="container my-5 mb-5">
 
+    
     <h1 class="text-center"> Contatos</h1>
 
     <p class="text-center">
@@ -8,13 +9,23 @@
         Telefone: 12 98155-6633
     </p>
 
-    <form action="">
-        <div class="div-row">
-            <div class="col-lg-6 mt-2">
-                <input type="text" class="form-control" placeholder="Digite seu Nome"/>
-                <input type="text" class="form-control" placeholder="Digite seu Telefone"/>  
-                <textarea class="form-control" placeholder="Digite seu Endereço ou local de entrega"></textarea>
-                <button class="btn btn-md btn-success mt-3"> Fazer Pedido</button>
+    <form >
+        <a routerLink="../menu" class="btn btn-sm btn-warning mb-3" > Voltar </a>
+        <div class="row">
+            <div class="col-lg-6 mt-3 mb-2">
+                <input type="text" class="form-control" placeholder="Digite seu Nome" />
+            </div>
+            <div class="col-lg-6 mt-3 mb-2">
+                <input type="text" class="form-control" placeholder="Digite seu Sobrenome" />
+            </div>
+            <div class="col-lg-12 mt-3 mb-2">
+                <input type="text" class="form-control" placeholder="Digite seu Email" />
+            </div>
+            <div class="col-lg-6 mt-3 mb-2">
+                <input type="text" class="form-control" placeholder="Digite seu Telefone" />
+            </div>
+            <div class="col-lg-6">
+                <button class="btn btn-md btn-success mt-3"> Enviar </button>
             </div>
         </div>
     </form>
