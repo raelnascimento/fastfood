@@ -11,6 +11,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { OrderDetailsService } from './services/order-details.service';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { ClienteComponent } from './pages/cliente/cliente.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    MenupageComponent
+    MenupageComponent,
+    ClienteComponent
   ],
   imports: [
     BrowserModule,
